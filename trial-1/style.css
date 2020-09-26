@@ -1,0 +1,1051 @@
+* {
+ box-sizing: border-box;
+ margin: 0; 
+}
+
+li, a, button {
+ font-weight: bolder;
+ font-size: 14px;
+ color: pink;
+ text-decoration: none;
+}
+
+header {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 20px 10%;
+ background-color: white;
+}
+
+.logo-sophrologue {
+	cursor: pointer;
+}
+
+.logo-sophrologue {
+	cursor: pointer;
+	letter-spacing: 1.5px;
+	font-weight: 600;
+	margin: auto 10px;
+
+}
+
+.butterfly-logo{
+	height: 50px;
+	width: auto;
+	padding-left: 0px;
+}
+
+.nav_links {
+ list-style: none;
+}
+.nav_links li{
+ display: inline-block;
+ padding: 0px 20px;
+}
+
+.nav_links li a{
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+	color: purple;
+}
+
+button {
+	padding: 9px 25px;
+	background-color: rgba(0,136,169,1);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+button: hover {
+	background-color: rgba(0,136,169,0.8);
+}
+
+.parallax-inner{
+	width: 100%;
+	height: 100%;
+	margin-left: auto;
+	margin--right: auto;
+	text-align: center;
+}
+
+.parallax-inner{
+	position: absolute;
+	z-index: 1000;
+	top: 260px;
+}	
+
+.parallax-inner h1 {
+  text-align: center;
+  color: #562349;
+  margin-bottom: 10px;
+  letter-spacing: 0.1em;
+  font-family: 'Exo', sans-serif;
+  font-weight: 400; 
+  font-size: 60px;
+}
+
+.parallax-inner h2 {
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+   letter-spacing: 0.1em;
+    color: #562349;
+    font-family: 'Exo', sans-serif;
+    font-weight: 400;
+}
+
+.button-purple {
+  background-color: rgb(240, 219, 235);
+  color: #562349;
+  padding: 16px 20px;
+  border-radius: 15px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+  font-weight: 20px;
+  font-size: 30px;
+  font-family: 'Exo', sans-serif;
+   letter-spacing: 0.1em;
+   border-color: rgb(240, 219, 235);
+
+}
+
+.button-purple:hover {
+  background-color: rgb(151, 206, 159);
+  color: white;
+}
+
+
+.parallax-inner h4 {
+  color: white;
+  font-size: 24px;
+  margin-top: 130px;
+ font-family: 'Cookie', cursive;;
+  font-weight: 700px;
+  font-size: 35px;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: auto;
+  line-height: 20px;
+}
+
+
+.parallax-banner {
+  background: url('https://images.unsplash.com/photo-1474557157379-8aa74a6ef541?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60') repeat fixed 100%;
+  background-position: top center !important;
+  background-attachment: fixed;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  margin: 0 auto !important;
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+
+
+.sophro-info {
+	margin-left: 200px;
+	margin-right: 150px;
+	padding: auto;
+	  font-family: 'Exo', sans-serif;
+    font-weight: 400;
+}
+
+.about-sophrology {
+	margin-top: 50px;
+	padding: auto;
+}
+
+.sophro-title h1 {
+text-align: justify;                        
+text-align: center;
+margin-bottom: 10px;
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+padding-top: 10px;
+  letter-spacing: 0.1em;
+  font-family: 'Exo', sans-serif;
+  font-weight: 400; 
+  font-size: 60px;
+  line-height: 1.5em;
+
+}
+
+.sophro-title h2 {
+text-align: justify;                        
+text-align: center;
+margin-bottom: 15px;
+width: 50%;
+margin: auto;
+line-height: 1.5em
+padding-bottom: 10px;
+  font-family: 'Exo', sans-serif;
+    font-weight: 400;
+}
+
+.sophro-info {
+  line-height: 1.7em;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+.sophro-info p{
+  line-height: 2em;
+  text-align: justify;
+  padding-bottom: 15px;
+  size: 45px;
+}
+
+.about-sophrology{
+ margin-bottom: 30px;
+}
+
+.parallax-banner-bénéfices {
+  background: url('https://images.unsplash.com/photo-1532009877282-3340270e0529?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60') repeat fixed 100%;
+  background-position: top center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  margin: 0 auto !important;
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+.parallax-banner-bénéfices-inner{
+
+  padding-bottom: 40%; 
+  position: relative;
+}
+
+.parallax-inner-bénéfices h1 {
+  text-align: center;
+  color: #562349;
+  margin-bottom: 10px;
+  letter-spacing: 0.1em;
+  font-family: 'Exo', sans-serif;
+  font-weight: 400; 
+  font-size: 60px;
+}
+
+.parallax-inner-bénéfices h1 {
+  text-align: center;
+  color: white;
+  font-size: 45px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.parallax-banner-bénéfices-inner h1 {
+  text-align: center;
+  color: white;
+   letter-spacing: 0.1em;
+  font-family: 'Exo', sans-serif;
+  font-weight: 400; 
+  font-size: 60px;
+  margin-top: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.p-benefices-sophro {
+  color: black;
+
+}
+
+.benefices-pour-chaque{
+  height: 100%;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+.intro-phrase1 p {
+text-align: justify;                        
+text-align: center;
+margin-bottom: 5px;
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+padding-top: 10px;
+  letter-spacing: 0.1em;
+  font-family: 'Exo', sans-serif;
+  font-weight: 400; 
+  font-size: 25px;
+  line-height: 1.5em;
+  }
+
+.intro-phrase2 p {
+text-align: justify;                        
+text-align: center;
+margin-bottom: 10px;
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 3px;
+  letter-spacing: 0.1em;
+  font-family: 'Exo', sans-serif;
+  font-weight: 400; 
+  font-size: 25px;
+  line-height: 1.5em;
+  }
+
+.benefices-pour-chaque p{
+  text-align: justify;
+   font-family: 'Exo', sans-serif;
+    font-weight: 400;
+ 
+}
+
+.column1-sophrologie {
+  border:4px;
+  color: black;
+  width: 80%;                      
+  padding: 30px;
+  margin: 3px;
+  margin-top: -20px;                             
+  text-align: left;
+    } 
+
+.column2-pictures{
+  border:4px;
+  color: black;
+  width: auto;                      
+  padding: 30px;
+  margin: 3px;
+  margin-top: -20px;                             
+  text-align: center;
+    } 
+
+.rows-sophrologie {
+  display: inline-block;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  margin-left: 100px;
+}
+
+.column1-sophrologie p{
+  line-height: 1.7em;
+  text-align: justify;
+}
+
+.picture-kids img{
+  width: 300px;
+  height: 300px;
+  border-radius: 4px;
+}
+
+.picture-teens img{
+  width: 300px;
+  height: 300px;
+   border-radius: 4px;
+}
+
+.picture-adults img{
+  width: 300px;
+  height: 300px;
+   border-radius: 4px;
+}
+
+.benefices-enfants h1{
+ margin-bottom: 10px;
+   letter-spacing: 0.1em;
+  font-family: 'Exo', sans-serif;
+  font-weight: 600; 
+  font-size: 30px;
+  line-height: 1.5em;
+}
+
+.benefices-enfants p{
+ margin-bottom: 15px;
+}
+
+.benefices-enfants h4{
+ margin-bottom: 8px;
+   font-family: 'Exo', sans-serif;
+    font-weight: 700;
+    text-decoration: underline;
+    line-height: 1.5em;
+}
+
+.benefices-enfants ul {
+ margin-bottom: 10px;
+ color: black;
+}
+
+.benefices-enfants li {
+ color: black;
+  font-size: 15px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 400;
+
+}
+
+.benefices-enfants{
+  width: auto;
+  background: white;                         
+  padding: 30px;
+  margin: 8px;                             
+  text-align: left;
+}
+
+.intext-header {
+  margin-bottom: -6px;
+  margin-top: -6px;
+}
+
+.benefices-adolescents{
+  width: auto;
+  background: white;                         
+  padding: 30px;
+  margin: 8px;                             
+  text-align: left;
+}
+
+.benefices-adolescents h1 {
+  margin-bottom: 10px;
+  letter-spacing: 0.1em;
+  font-family: 'Exo', sans-serif;
+  font-weight: 600; 
+  font-size: 30px;
+  line-height: 1.5em;
+}
+
+.benefices-adolescents p{
+ margin-bottom: 15px;
+}
+
+.benefices-adolescents ul {
+ margin-bottom: 10px;
+}
+
+.benefices-adolescents li {
+ color: black;
+ font-weight: lighter;
+ line-height: 1.6em;
+ font-size: 15px;
+  font-family: 'Exo', sans-serif;
+    font-weight: 400;
+
+}
+
+.benefices-adultes {
+  width: auto;
+  padding: 30px;
+  margin: 8px;                             
+  text-align: left;
+}
+
+.benefices-adultes h1 {
+  margin-bottom: 10px;
+  letter-spacing: 0.1em;
+  font-family: 'Exo', sans-serif;
+  font-weight: 600; 
+  font-size: 30px;
+  line-height: 1.5em;
+}
+
+.benefices-adultes p{
+ margin-bottom: 15px;
+}
+
+.benefices-adultes ul {
+ margin-bottom: 10px;
+}
+
+.benefices-adultes li {
+ color: black; 
+  line-height: 1.6em;
+ font-size: 15px;
+  font-family: 'Exo', sans-serif;
+    font-weight: 400;
+}
+
+.benefices-pour-chaque{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.benefices-pour-chaque{
+  list-style-position: outside;
+}
+
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 23px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+.column.text{
+        position: relative;
+        text-align: center;
+        color: black;
+        display: inline-block;
+    }
+
+
+.parallax-banner-séances {
+  background: url('https://images.unsplash.com/photo-1515863149848-223cbed59017?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60') repeat fixed 100%;
+  background-position: top center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  margin: 0 auto !important;
+  padding-top: 250px;
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+.parallax-inner-séances h1 {
+  text-align: center;
+  color: #562349;
+  margin-bottom: 10px;
+  letter-spacing: 0.1em;
+  font-family: 'Exo', sans-serif;
+  font-weight: 400; 
+  font-size: 60px;
+}
+
+.parallax-banner-séances h1 {
+  text-align: center;
+  color: white;
+  font-size: 45px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.déroulement{
+background: white;                                 
+text-align: justify;                        
+text-align: center;
+margin-bottom: 20px;
+width: 50%;
+margin: auto;
+line-height: 1.5em
+}
+
+.déroulement h2{
+margin-top: 30px;
+margin-bottom: 20px;
+  letter-spacing: 0.1em;
+  font-family: 'Exo', sans-serif;
+  font-weight: 500; 
+  font-size: 40px;
+  line-height: 1.5em;
+}
+
+.déroulement p{
+padding: auto;
+font-family: 'Exo', sans-serif;
+font-weight: 400;
+line-height: 2em;
+text-align: justify;                        
+text-align: left;
+}
+
+.déroulement-expliquation p {
+margin-top: 20px;
+font-family: 'Exo', sans-serif;
+font-weight: 400;
+line-height: 2em;
+text-align: left;                        
+}
+
+.déroulement-expliquation ol {
+margin-top: 10px;
+font-family: 'Exo', sans-serif;
+font-weight: 400;
+line-height: 2em;
+text-align: left;                       
+}
+
+.déroulement-expliquation li {
+margin-top: 10px;
+font-family: 'Exo', sans-serif;
+font-weight: 400;
+line-height: 2em;
+text-align: left;
+color: black;
+font-size: 15px;                   
+}
+
+.consultation p{
+margin-left: 30px; 
+font-family: 'Exo', sans-serif;
+font-weight: 400;
+line-height: 2em;
+text-align: center;                 
+}
+
+.Séances {
+background: white;                         
+padding: 30px;
+margin: 8px;                             
+border-radius: 4px;                        
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+border: 2px solid pink;
+text-align: center;
+}
+
+.consultation {                       
+padding-bottom: 30px;
+padding-top: 20px;
+margin: 8px;                             
+text-align: left;
+}
+
+	
+.Individuelle {
+background: white;                         
+padding: 30px;
+margin: 8px;
+width: auto;                             
+border-radius: 4px;                        
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+border: 2px solid pink;
+text-align: center;
+}
+
+.Duo {
+background: white;                         
+padding: 30px;
+margin: 8px;
+width: auto;                             
+border-radius: 4px;                        
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+border: 2px solid pink;
+text-align: center;
+}
+
+.Collectives {
+background: white;                         
+padding: 30px;
+margin: 8px;
+width: auto;                             
+border-radius: 4px;                        
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+border: 2px solid pink;
+text-align: center;
+}
+
+.Entreprises {
+background: white;                         
+padding: 30px;
+margin: 8px;
+width: auto;                             
+border-radius: 4px;                        
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+border: 2px solid pink;
+text-align: center;
+}
+
+.button-blue {
+  background-color: pink;
+  color: purple;
+  padding: 16px 48px;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.button-blue:hover {
+  background-color: #0D1EC6;
+  color: white;
+}
+
+.cards {
+  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
+  margin-bottom: 30px;
+  padding: 10px;
+margin:  auto;
+width: auto; 
+height: auto; 
+}
+
+.cards h2 {
+letter-spacing: 0.1em;
+  font-family: 'Exo', sans-serif;
+  font-weight: 400; 
+  font-size: 30px;  
+  padding-bottom: 20px;   
+}
+
+.cards h4 {
+font-family: 'Exo', sans-serif;
+font-weight: 400;
+line-height: 2em;
+color: black;
+font-size: 15px;     
+}
+
+
+
+
+
+.parallax-banner-qui-suis-je {
+  background: url('https://images.unsplash.com/photo-1528306752279-896eace94b08?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60') repeat fixed 100%;
+  background-position: top center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  margin: 0 auto !important;
+  padding-top: 250px;
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+
+.parallax-inner-about-me h1 {
+  text-align: center;
+  color: #562349;
+
+  letter-spacing: 0.1em;
+  font-family: 'Exo', sans-serif;
+  font-weight: 400; 
+  font-size: 60px;
+}
+
+.parallax-inner-about-me h1 {
+  text-align: center;
+  color: white;
+  font-size: 45px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.info p{
+padding: auto;
+font-family: 'Exo', sans-serif;
+font-weight: 400;
+line-height: 2em;              
+text-align: left;
+text-align: justify;
+color: black; 
+margin-top: 10px; 
+width: 100%;
+}
+
+.info {
+ width: 100%;             
+  padding: 30px;
+  margin: 3px;
+  margin-top: -20px;                             
+  text-align: left;
+  margin-top: 30px;
+  padding-left: 100px;
+    } 
+
+.profile{
+  border:4px;
+  color: black;
+  width: auto;                      
+  padding: 60px;
+  margin: 3px;
+  margin-top: -20px;                             
+  text-align: center;
+  margin-top: 30px;
+    } 
+
+.about-me {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+  margin-left: auto;
+  margin-bottom: auto;
+  padding-left: auto;
+  padding-right: auto;
+  text-align: justify;
+}
+
+.photo-lama {              
+padding: 0;
+margin: 8px;
+margin-top: 2px;
+width: 380px;
+height: 550px;                             
+border-radius: 4px;                        
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+border: 10px solid 	 #59274d;
+}
+
+.profile p {              
+text-align: center;
+line-height: 1.5em;
+}
+
+
+.column-container-logo{              
+width: 300px;
+margin: 0 auto;
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-gap: 16px;
+}
+
+
+.membre {              
+height: 20px;
+width: 300px;
+margin: auto; 
+}
+
+.membre p {              
+	line-height: 2em;
+	font-family: 'Exo', sans-serif;
+	font-weight: 500;             
+	text-align: justify;
+	color: black; 
+}
+
+.logo {              
+width: 200px;
+height: 200px;
+margin: center;
+}
+
+.logo-pic {              
+width: 200px;
+height: 200px;
+margin-left: auto;
+margin-right: auto;
+margin-top: -6px;
+}
+
+.picture1 {
+  width: 100%;                      
+  padding: 20px;
+  padding-top: 0px;
+  margin: 5px;                            
+  margin-top: 0px;
+    } 
+
+.logo-caption p{
+  color: black;
+  width: 400px;                      
+  padding: 20px;
+  margin: 5px;
+  margin-top: 30px;              
+  text-align: justify;
+  line-height: 2em;
+	font-family: 'Exo', sans-serif;
+	font-weight: 400;             
+	text-align: justify;
+	color: black; 
+    } 
+
+.logo-caption p{
+  width: 250px;
+    } 
+
+.wrapper-logo-pic {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0px;
+   margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+}
+
+.picture1 {              
+margin-left: 300px;
+margin-bottom: 50px;
+}
+
+
+.parallax-banner-contact-me {
+  background: url('https://images.unsplash.com/photo-1519882189396-71f93cb4714b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60') repeat fixed 100%;
+  background-position: top center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  margin: 0 auto !important;
+  padding-top: 250px;
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-attachment: fixed;
+}
+
+.parallax-inner-contact-me h1 {
+  text-align: center;
+  color: #562349;
+  margin-bottom: 10px;
+  letter-spacing: 0.1em;
+  font-family: 'Exo', sans-serif;
+  font-weight: 400; 
+  font-size: 60px;
+}
+
+.parallax-inner-contact-me h1 {
+  text-align: center;
+  color: white;
+  font-size: 45px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.parallax-banner-contact-me h1{              
+  color: purple;
+}
+
+
+.contact-me {              
+  width: 600px;
+  height: auto;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #562349;
+  color: #f2f2f2;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.footer {              
+height: 190px;
+width: cover;
+background-color: pink;
+color: white;
+margin-bottom: 0;
+}
+
+.contact{
+  width: auto;                         
+  padding: 30px;
+  margin: 8px;                             
+  text-align: left;
+}
+
+.contact h2 {
+  margin-bottom: 10px;
+}
+
+.contact p {
+  margin-bottom: 5px;
+}
+
+.paiements li {
+color: white;
+margin-left: 0px;
+padding-left: 0px;
+}
+
+.paiements h2 {
+  margin-bottom: 10px;
+}
+
+.paiements p {
+  margin-bottom: 5px;
+}
+
+.social-media h2  {
+  margin-bottom: 10px;
+}
+
+.social-media p {
+  margin-bottom: 5px;
+}
+
+.paiements {
+  width: auto;
+  padding: 30px;
+  margin: 8px;                             
+  text-align: left;
+}
+
+.social-media{
+  width: auto;
+  padding: 30px;
+  margin-top: 4px;                             
+  text-align: left;
+}
+
+.facebook-logo {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  z-index: 1px;
+}
+
+.social-media a {
+  color: white;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+ margin: initial;
+  box-sizing: initial;
+}
+
+
+.paiements ul {
+  line-height: 2em;
+}
+
+
+
+
+
